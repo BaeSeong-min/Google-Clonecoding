@@ -1,0 +1,37 @@
+article > h1{
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 100px;
+    font-family: 'Noto Sans Display', sans-serif;
+}
+
+.searchitems{
+    position: relative;
+    width: 600px;
+}
+
+#search-bar{
+    border-radius: 30px;
+    padding-left: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.glass{
+    font-size: 14px;
+    position: relative;
+    color: #5f6367;
+    left: 30px;
+    top: 12px;
+    z-index: 2;
+}
+
+#mic{
+    background: transparent;
+    position: relative;
+    z-index: 2;
+    border: none;
+    left: -40px;
+    top: -1px;
+}
